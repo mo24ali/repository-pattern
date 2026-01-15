@@ -6,11 +6,5 @@
             "Src\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "mo24ali",
-            "email": "alichere1234@gmail.com"
-        }
-    ],
     "require": {}
 }

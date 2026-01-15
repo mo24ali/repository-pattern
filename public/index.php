@@ -12,10 +12,10 @@ $userService = new UserService($userRepo);
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $nom = $_POST['name'];
-    $age = $_POST['age'];    // 33 ->> post: '33' ->> recuperation : '3esf3'
+    $age = $_POST['age'];
     var_dump($age);
 
-    $user = new User($nom, "3gg3");
+    $user = new User($nom, $age);
     $userService->register($user);
 
 

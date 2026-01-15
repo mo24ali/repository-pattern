@@ -12,7 +12,7 @@ class User
     private ?int $id;
     private ?int $age;
 
-    public function __construct( string $nm, string $newAge)
+    public function __construct( string $nm, int $newAge)
     {
         $this->name = $nm;
         $this->age =(int) $newAge;
