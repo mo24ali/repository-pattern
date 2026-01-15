@@ -1,0 +1,16 @@
+{
+    "name": "alich/repository-design-pattern",
+    "autoload": {
+        "psr-4": {
+            "Config\\": "config/",
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mo24ali",
+            "email": "alichere1234@gmail.com"
+        }
+    ],
+    "require": {}
+}
